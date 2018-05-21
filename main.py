@@ -8,7 +8,7 @@ password = "Bhupinder23"
 loginPayload = {
 	"email": username
 	"password": password
-	"csrfmiddlewaretoken": "c4359d4fcc1c437d8250117845e63a0d"
+	"csrfToken": "c4359d4fcc1c437d8250117845e63a0d"
 }
 
 link = "https://www.fitbit.com/"
