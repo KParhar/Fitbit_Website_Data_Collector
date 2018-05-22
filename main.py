@@ -41,15 +41,11 @@ result = sRequests.post(
 
 print(result.status_code)
 
-link = "https://www.fitbit.com/"
 
-result = sRequests.get(link, headers = dict(referer = link))
-htmlText = result.text
 
-link = "https://www.fitbit.com/"
+link = "https://api.fitbit.com/1/user/62YB3X/activities/heart/date/today/1d.json"
 
 result = sRequests.get(link)
 htmlText = result.text
 
-
-print(result.url)
+print(htmlText)
